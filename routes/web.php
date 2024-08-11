@@ -58,6 +58,6 @@ Route::get('/admin/orders', function () {
 Route::get('/admin/products', function () {
     return view('products');
 });
-Route::get('/admin/castomers', function () {
-    return view('castomers');
+Route::get('/admin/customers', function () {
+    return view('customers');
 });
