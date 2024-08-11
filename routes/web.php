@@ -49,3 +49,15 @@ Route::get('/careers/{id}', function ($id)  {
 Route::get('/admin', function () {
     return view('admin');
 });
+Route::get('/admin/dashboard', function () {
+    return view('dashboard');
+});
+Route::get('/admin/orders', function () {
+    return view('orders');
+});
+Route::get('/admin/products', function () {
+    return view('products');
+});
+Route::get('/admin/castomers', function () {
+    return view('castomers');
+});
