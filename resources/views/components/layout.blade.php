@@ -8,29 +8,41 @@
     <title>Styleberry</title>
     <link rel="shortcut icon" href="{{ URL('images/logo2.png') }}" type="image/x-icon">
 
-    
+    {{-- bootstrap cdn  --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     {{-- icon     --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    {{-- custom css  --}}
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
 </head>
 
 <body class="" style="padding: 60px 0px 0px 0px">
-    <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
+
+    {{-- back to top button  --}}
+    <button type="button" class="btn btn-light btn-floating btn-lg px-2 py-1" id="btn-back-to-top" data-bs-toggle="tooltip"
+        data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+        data-bs-title="This top tooltip is themed via CSS variables.">
+        <img src="{{ asset('images/svg/arrow-upward.svg') }}" class="text-black" alt="">
     </button>
+
     {{-- navbar start  --}}
     <nav class="navbar navbar-expand-lg bg-gradient shadow fixed-top ">
         <div class="container-fluid">
             <a class="navbar-brand " href="/">
                 <img src="{{ URL('images/logo.png') }}" alt="Bootstrap" width="auto" height="40">
             </a>
+
+            {{-- navbar toggle button for mobile viewa --}}
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                {{-- <span class="navbar-toggler-icon"></span> --}}
+                <img src="{{ asset('images/svg/menu-icon.svg') }}" alt="menu icon">
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 
@@ -77,6 +89,8 @@
     </nav>
     {{-- navbar end  --}}
 
+    {{-- all content goes here --}}
+
     <div class="container-fluid text-white p-0 m-0">
         {{ $heading }}
     </div>
@@ -84,7 +98,7 @@
         {{ $content }}
     </div>
 
-    
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-gradient  ">
         <!-- Section: Social media -->
@@ -212,7 +226,7 @@
     </footer>
     <!-- Footer -->
 
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>

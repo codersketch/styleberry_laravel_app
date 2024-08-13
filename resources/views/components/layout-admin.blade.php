@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Styleberry</title>
-    <link rel="shortcut icon" href="{{ URL('images/logo2.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/logo2.png') }}" type="image/x-icon">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,7 +21,7 @@
     <div class="d-none d-md-block d-flex flex-column flex-shrink-0 p-3 text-white bg-dark navbar-fixed-top"
         style="width: 280px; height:100vh">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-            <img src="{{ URL('images/logo.png') }}" alt="" width="auto" height="40">
+            <img src="{{ asset('images/logo.png') }}" alt="" width="auto" height="40">
             <span class="fs-4"></span>
         </a>
         <hr>
@@ -58,7 +58,7 @@
                             d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z" />
                         <use xlink:href="#table"></use>
                     </svg>
-                    Orders
+                    Bokings
                 </x-nav-link>
             </li>
             <li>
@@ -107,7 +107,7 @@
 
     <nav class="d-md-none navbar text-white bg-dark navbar-fixed-top">
         <div class="container-fluid">
-            <button class="navbar-toggler shadow text-white border-primary" type="button" data-bs-toggle="collapse"
+            {{-- <button class="navbar-toggler shadow text-white border-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -115,6 +115,12 @@
                     <path
                         d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z" />
                 </svg>
+            </button> --}}
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                {{-- <span class="navbar-toggler-icon text-white"></span> --}}
+                <img src="{{ asset('images/svg/menu-icon.svg') }}" alt="menu icon">
             </button>
             <a class="navbar-brand m-0" href="/">
                 <img src="{{ URL('images/logo.png') }}" alt="" width="auto" height="40">
