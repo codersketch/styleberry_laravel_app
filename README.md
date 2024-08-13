@@ -64,3 +64,67 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Salon Management & CMS Application
+
+## Overview
+
+This project is a Laravel-based web application designed to manage a salon's operations, including booking appointments, managing staff schedules, and handling customer information. Additionally, it includes a Content Management System (CMS) to manage the website content.
+## Features
+
+ Salon Management:
+- Appointment booking system.
+- Staff schedule management.
+- Customer management.
+- Service management.
+- Payment tracking and invoicing.
+
+Content Management System (CMS):
+- Create, update, and delete website pages.
+- Manage blog posts and media.
+- User role management (admin, staff, customer).
+- SEO-friendly URLs.
+
+## Requirements
+
+- PHP 8.1+
+- Laravel 10+
+- MySQL 8.0+
+- Composer
+## Installation
+
+1. Clone the repository
+```bash
+  git clone https://github.com/codersketch/styleberry_laravel_app.git
+  cd styleberry_laravel_app
+```
+
+2. Install dependencies
+```bash
+  composer install
+```
+
+3. Configure the environment
+- Copy the .env.example file to .env
+```bash
+    cp .env.example .env
+```
+- Update the .env file with your database credentials and other settings.
+
+4. Generate application key
+```bash
+php artisan key:generate
+```
+
+5. Run database migrations and seeders
+```bash
+php artisan migrate --seed
+```
+
+6. Serve the application
+```bash
+    php artisan serve
+```
+
+## Visit http://localhost:8000 to view the application.
