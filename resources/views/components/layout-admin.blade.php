@@ -15,40 +15,40 @@
     <title> Xino - Premium dashboard ui bootstrap rwd admin html5 template </title>
 
     <!-- Favicon -->
-    <link rel="icon" href="../assets/img/brand/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('assets/img/brand/favicon.png') }}" type="image/x-icon" />
 
     <!-- Icons css -->
-    <link href="../assets/css/icons.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
 
     <!-- Internal Chart-Morris css-->
-    <link href="../assets/plugins/morris.js/morris.css" rel="stylesheet">
+    <link href="{{ asset('assets/plugins/morris.js/morris.css') }}assets/plugins/morris.js/morris.css" rel="stylesheet">
 
     <!--  Right-sidemenu css -->
-    <link href="../assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+    <link href="{{ asset('assets/plugins/sidebar/sidebar.css') }}" rel="stylesheet">
 
     <!-- Internal Nice-select css  -->
-    <link href="../assets/plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/jquery-nice-select/css/nice-select.css') }}" rel="stylesheet" />
 
     <!-- Internal News-Ticker css-->
-    <link href="../assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="{{ asset('assets/plugins/flag-icon-css/css/flag-icon.min.css') }}" rel="stylesheet">
 
     <!-- Jquery-countdown css-->
-    <link href="../assets/plugins/jquery-countdown/countdown.css" rel="stylesheet">
+    <link href="{{ asset('assets/plugins/jquery-countdown/countdown.css') }}" rel="stylesheet">
 
     <!-- Internal News-Ticker css-->
-    <link href="../assets/plugins/newsticker/jquery.jConveyorTicker.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/newsticker/jquery.jConveyorTicker.css') }}" rel="stylesheet" />
 
     <!-- style css-->
-    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
     <!-- skin css-->
-    <link href="../assets/css/skin-modes.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/skin-modes.css') }}" rel="stylesheet">
 
     <!-- dark-theme css-->
-    <link href="../assets/css/style-dark.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/style-dark.css') }}" rel="stylesheet">
 
     <!--- Animations css-->
-    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
 
 </head>
 
@@ -56,7 +56,7 @@
 
     <!-- Loader -->
     <div id="global-loader" class="light-loader">
-        <img src="../assets/img/loaders/loader.svg" class="loader-img" alt="Loader">
+        <img src="{{ asset('assets/img/loaders/loader.svg') }}" class="loader-img" alt="Loader">
     </div>
     <!-- /Loader -->
 
@@ -66,8 +66,8 @@
             <div class="main-header-left ">
                 <a class="animated-arrow hor-toggle horizontal-navtoggle"><span></span></a><!-- sidebar-toggle-->
                 <a class="header-brand" href="index.html">
-                    <img src="../assets/img/brand/logo-theme-dark.png" class="desktop-dark">
-                    <img src="../assets/img/brand/logo.png" class="desktop-logo">
+                    <img src="{{ asset('assets/img/brand/logo-theme-dark.png') }}" class="desktop-dark">
+                    <img src="{{ asset('assets/img/brand/logo.png') }}" class="desktop-logo">
                 </a>
                 <div class="main-header-center ml-3 d-sm-none d-md-none d-lg-block">
                     <input type="search" class="form-control" placeholder="Search for anything...">
@@ -76,7 +76,8 @@
             </div>
             <div class="main-header-center">
                 <div class="responsive-logo">
-                    <a href="index.html"><img src="../assets/img/brand/logo.png" class="mobile-logo" alt="logo"></a>
+                    <a href="index.html"><img src="{{ asset('assets/img/brand/logo.png') }}" class="mobile-logo"
+                            alt="logo"></a>
                 </div>
             </div>
             <div class="main-header-right">
@@ -114,7 +115,8 @@
                             </div>
                             <div class="main-message-list chat-scroll">
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="  drop-img  cover-image  " data-image-src="../assets/img/faces/3.jpg">
+                                    <div class="  drop-img  cover-image  "
+                                        data-image-src="{{ asset('assets/img/faces/3.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
 
@@ -127,7 +129,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/2.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/2.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -139,7 +142,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/9.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/9.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -151,7 +155,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/12.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/12.jpg') }}">
                                         <span class="avatar-status bg-danger"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -163,7 +168,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/5.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/5.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -279,10 +285,11 @@
                     </button>
                     <div class="dropdown main-profile-menu nav nav-item nav-link">
                         <a class="profile-user" href=""><img alt=""
-                                src="../assets/img/faces/5.jpg"></a>
+                                src="{{ asset('assets/img/faces/5.jpg') }}"></a>
                         <div class="dropdown-menu dropdown-menu-arrow animated fadeInUp">
                             <div class="main-header-profile header-img">
-                                <div class="main-img-user"><img alt="" src="../assets/img/faces/5.jpg"></div>
+                                <div class="main-img-user"><img alt=""
+                                        src="{{ asset('assets/img/faces/5.jpg') }}"></div>
                                 <h6>Elizabeth Jane</h6><span>Premium Member</span>
                             </div>
                             <a class="dropdown-item" href=""><i class="far fa-user"></i> My Profile</a>
@@ -348,7 +355,8 @@
                             </div>
                             <div class="main-message-list text-scroll">
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="  drop-img  cover-image  " data-image-src="../assets/img/faces/3.jpg">
+                                    <div class="  drop-img  cover-image  "
+                                        data-image-src="{{ asset('assets/img/faces/3.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
 
@@ -361,7 +369,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/2.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/2.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -373,7 +382,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/9.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/9.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -385,7 +395,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/12.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/12.jpg') }}">
                                         <span class="avatar-status bg-danger"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -397,7 +408,8 @@
                                     </div>
                                 </a>
                                 <a href="#" class="p-3 d-flex border-bottom">
-                                    <div class="drop-img cover-image" data-image-src="../assets/img/faces/5.jpg">
+                                    <div class="drop-img cover-image"
+                                        data-image-src="{{ asset('assets/img/faces/5.jpg') }}">
                                         <span class="avatar-status bg-teal"></span>
                                     </div>
                                     <div class="wd-90p">
@@ -507,10 +519,11 @@
                     </div>
                     <div class="dropdown main-profile-menu nav nav-item nav-link">
                         <a class="profile-user" href=""><img alt=""
-                                src="../assets/img/faces/5.jpg"></a>
+                                src="{{ asset('assets/img/faces/5.jpg') }}"></a>
                         <div class="dropdown-menu dropdown-menu-arrow animated fadeInUp">
                             <div class="main-header-profile header-img">
-                                <div class="main-img-user"><img alt="" src="../assets/img/faces/5.jpg"></div>
+                                <div class="main-img-user"><img alt=""
+                                        src="{{ asset('assets/img/faces/5.jpg') }}"></div>
                                 <h6>Elizabeth Jane</h6><span>Premium Member</span>
                             </div>
                             <a class="dropdown-item" href=""><i class="far fa-user"></i> My Profile</a>
@@ -837,7 +850,7 @@
                                         <div class="row">
                                             <div class="d-flex">
                                                 <div class="my-auto">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Augur.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Augur.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -855,7 +868,7 @@
                                         <div class="row">
                                             <div class="d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/AquariusCoin.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/AquariusCoin.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -873,7 +886,7 @@
                                         <div class="row">
                                             <div class="d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/BitShares.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/BitShares.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -891,7 +904,7 @@
                                         <div class="row">
                                             <div class="d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Bytecoin.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Bytecoin.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -910,7 +923,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="my-auto">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Dash.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Dash.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -929,7 +942,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/EOS.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/EOS.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -948,7 +961,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Decred.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Decred.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -967,7 +980,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/IOTA.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/IOTA.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -986,7 +999,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Litecoin.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Litecoin.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1004,7 +1017,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Monero.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Monero.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1022,7 +1035,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/NEM.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/NEM.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1040,7 +1053,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="../assets/img/crypto-currencies/round-outline/Netko-coin.svg"
+                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Netko-coin.svg"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1184,7 +1197,7 @@
                             <div class="">
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3 mt-0">
                                     <img class="w-6 h-6"
-                                        src="../assets/img/crypto-currencies/round-outline/Bitcoin.svg  "
+                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Bitcoin.svg  "
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1200,7 +1213,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="../assets/img/crypto-currencies/round-outline/Ethereum.svg"
+                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Ethereum.svg"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1216,7 +1229,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="../assets/img/crypto-currencies/round-outline/Litecoin.svg"
+                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Litecoin.svg"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1232,7 +1245,8 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="../assets/img/crypto-currencies/round-outline/Dash.svg" alt="image">
+                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Dash.svg"
+                                        alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <p class="mt-1 mb-0 font-weight-semibold">Dash/USD</p>
@@ -1246,7 +1260,8 @@
                                     </div>
                                 </div>
                                 <div class="list d-flex align-items-center p-2 pl-3 pr-3 mb-0">
-                                    <img class="w-6 h-6" src="../assets/img/crypto-currencies/round-outline/NEM.svg"
+                                    <img class="w-6 h-6"
+                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/NEM.svg"
                                         alt="image">
                                     <div class=" w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1781,8 +1796,9 @@
                 <div class="tab-pane active" id="tab">
                     <div class="card-body p-0">
                         <div class="header-user text-center mt-4">
-                            <span class="avatar avatar-xxl brround mx-auto"><img src="../assets/img/faces/6.jpg"
-                                    alt="Profile-img" class="avatar avatar-xxl brround"></span>
+                            <span class="avatar avatar-xxl brround mx-auto"><img
+                                    src="{{ asset('') }}assets/img/faces/6.jpg" alt="Profile-img"
+                                    class="avatar avatar-xxl brround"></span>
                             <div class=" text-center font-weight-semibold user mt-3 h6 mb-0">Rapona Pechon</div>
                             <span class="text-muted">App Developer</span>
                             <div class="card-body">
@@ -1826,23 +1842,23 @@
                                 <div class="col-12">
                                     <div class="followers">
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="../assets/img/faces/3.jpg">
+                                            data-image-src="{{ asset('') }}assets/img/faces/3.jpg">
                                             <span class="avatar-status bg-green"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="../assets/img/faces/6.jpg">
+                                            data-image-src="{{ asset('') }}assets/img/faces/6.jpg">
                                             <span class="avatar-status bg-red"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="../assets/img/faces/3.jpg">
+                                            data-image-src="{{ asset('') }}assets/img/faces/3.jpg">
                                             <span class="avatar-status bg-warning"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="../assets/img/faces/4.jpg">
+                                            data-image-src="{{ asset('') }}assets/img/faces/4.jpg">
                                             <span class="avatar-status bg-green"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="../assets/img/faces/9.jpg">
+                                            data-image-src="{{ asset('') }}assets/img/faces/9.jpg">
                                             <span class="avatar-status bg-warning"></span>
                                         </a>
                                         <a href="#"
@@ -1886,8 +1902,8 @@
                                 <li class="active">
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/12.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/12.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1895,14 +1911,15 @@
                                             <small class="text-muted">is online</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>01-02-2019</small></div>
+                                            <small>01-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/2.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/2.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class=" online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1910,14 +1927,15 @@
                                             <small class="text-muted">left 7 mins ago</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>01-02-2019</small></div>
+                                            <small>01-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/5.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/5.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1925,14 +1943,15 @@
                                             <small class="text-muted">online</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>01-02-2019</small></div>
+                                            <small>01-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/7.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/7.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1940,14 +1959,15 @@
                                             <small class="text-muted">online</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>02-02-2019</small></div>
+                                            <small>02-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/8.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/8.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1955,14 +1975,15 @@
                                             <small class="text-muted">30 mins ago</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>02-02-2019</small></div>
+                                            <small>02-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/3.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/3.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1970,14 +1991,15 @@
                                             <small class="text-muted">50 mins ago</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>03-02-2019</small></div>
+                                            <small>03-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/14.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/14.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
                                         <div class="user_info">
@@ -1985,21 +2007,23 @@
                                             <small class="text-muted">1hr ago</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>03-02-2019</small></div>
+                                            <small>03-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="../assets/img/faces/11.jpg" class="rounded-circle user_img"
-                                                alt="img">
+                                            <img src="{{ asset('') }}assets/img/faces/11.jpg"
+                                                class="rounded-circle user_img" alt="img">
                                         </div>
                                         <div class="user_info">
                                             <h5 class="mt-1 mb-1">Khadija Mehr</h5>
                                             <small class="text-muted">2hr ago</small>
                                         </div>
                                         <div class="float-right text-right ml-auto mt-auto mb-auto">
-                                            <small>03-02-2019</small></div>
+                                            <small>03-02-2019</small>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
@@ -2317,77 +2341,77 @@
     <a href="#top" id="back-to-top"><i class="la la-chevron-up"></i></a>
 
     <!-- JQuery min js -->
-    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery/jquery.min.js"></script>
 
     <!-- Datepicker js -->
-    <script src="../assets/plugins/jquery-ui/ui/widgets/datepicker.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery-ui/ui/widgets/datepicker.js"></script>
 
     <!-- Bootstrap Bundle js -->
-    <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Ionicons js -->
-    <script src="../assets/plugins/ionicons/ionicons.js"></script>
+    <script src="{{ asset('') }}assets/plugins/ionicons/ionicons.js"></script>
 
     <!-- Moment js -->
-    <script src="../assets/plugins/moment/moment.js"></script>
+    <script src="{{ asset('') }}assets/plugins/moment/moment.js"></script>
 
     <!--Chart bundle min js -->
-    <script src="../assets/plugins/chart.js/Chart.bundle.min.js"></script>
-    <script src="../assets/plugins/raphael/raphael.min.js"></script>
-    <script src="../assets/plugins/peity/jquery.peity.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/chart.js/Chart.bundle.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/raphael/raphael.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/peity/jquery.peity.min.js"></script>
 
     <!-- JQuery sparkline js -->
-    <script src="../assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Sampledata js -->
-    <script src="../assets/js/chart.flot.sampledata.js"></script>
+    <script src="{{ asset('') }}assets/js/chart.flot.sampledata.js"></script>
 
     <!-- Perfect-scrollbar js -->
-    <script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="../assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/p-scroll.js"></script>
 
     <!-- Internal  Flot js-->
-    <script src="../assets/plugins/jquery.flot/jquery.flot.js"></script>
-    <script src="../assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
-    <script src="../assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
-    <script src="../assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
-    <script src="../assets/js/dashboard.sampledata.js"></script>
-    <script src="../assets/js/chart.flot.sampledata.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
+    <script src="{{ asset('') }}assets/js/dashboard.sampledata.js"></script>
+    <script src="{{ asset('') }}assets/js/chart.flot.sampledata.js"></script>
 
     <!-- Internal Newsticker js-->
-    <script src="../assets/plugins/newsticker/jquery.jConveyorTicker.js"></script>
-    <script src="../assets/js/newsticker.js"></script>
+    <script src="{{ asset('') }}assets/plugins/newsticker/jquery.jConveyorTicker.js"></script>
+    <script src="{{ asset('') }}assets/js/newsticker.js"></script>
 
     <!-- Eva-icons js -->
-    <script src="../assets/js/eva-icons.min.js"></script>
+    <script src="{{ asset('') }}assets/js/eva-icons.min.js"></script>
 
     <!-- Horizontalmenu js-->
-    <script src="../assets/plugins/horizontal-menu/horizontal-menu.js"></script>
+    <script src="{{ asset('') }}assets/plugins/horizontal-menu/horizontal-menu.js"></script>
 
     <!-- right-sidebar js -->
-    <script src="../assets/plugins/sidebar/sidebar.js"></script>
-    <script src="../assets/plugins/sidebar/sidebar-custom.js"></script>
+    <script src="{{ asset('') }}assets/plugins/sidebar/sidebar.js"></script>
+    <script src="{{ asset('') }}assets/plugins/sidebar/sidebar-custom.js"></script>
 
     <!-- Rating js-->
-    <script src="../assets/plugins/rating/jquery.rating-stars.js"></script>
-    <script src="../assets/plugins/rating/jquery.barrating.js"></script>
+    <script src="{{ asset('') }}assets/plugins/rating/jquery.rating-stars.js"></script>
+    <script src="{{ asset('') }}assets/plugins/rating/jquery.barrating.js"></script>
 
     <!-- P-scroll js -->
-    <script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="../assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/p-scroll.js"></script>
 
     <!-- Internal Nice-select js-->
-    <script src="../assets/plugins/jquery-nice-select/js/jquery.nice-select.js"></script>
-    <script src="../assets/plugins/jquery-nice-select/js/nice-select.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery-nice-select/js/jquery.nice-select.js"></script>
+    <script src="{{ asset('') }}assets/plugins/jquery-nice-select/js/nice-select.js"></script>
 
     <!-- Sticky js -->
-    <script src="../assets/js/sticky.js"></script>
+    <script src="{{ asset('') }}assets/js/sticky.js"></script>
 
     <!-- index js -->
-    <script src="../assets/js/dashboard.js"></script>
+    <script src="{{ asset('') }}assets/js/dashboard.js"></script>
 
     <!-- custom js -->
-    <script src="../assets/js/custom.js"></script>
+    <script src="{{ asset('') }}assets/js/custom.js"></script>
 
 
 </body>
