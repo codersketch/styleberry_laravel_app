@@ -942,7 +942,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/EOS.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/EOS.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -980,7 +980,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/IOTA.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/IOTA.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -999,7 +999,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Litecoin.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Litecoin.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1017,7 +1017,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Monero.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Monero.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1035,7 +1035,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/NEM.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/NEM.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1053,7 +1053,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Netko-coin.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Netko-coin.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
@@ -1197,7 +1197,7 @@
                             <div class="">
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3 mt-0">
                                     <img class="w-6 h-6"
-                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Bitcoin.svg  "
+                                        src="{{ asset('assets/img/crypto-currencies/round-outline/Bitcoin.svg') }}"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1213,7 +1213,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Ethereum.svg"
+                                        src="{{ asset('assets/img/crypto-currencies/round-outline/Ethereum.svg') }}"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1229,7 +1229,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Litecoin.svg"
+                                        src="{{ asset('assets/img/crypto-currencies/round-outline/Litecoin.svg') }}"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1245,7 +1245,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center border-bottom p-2 pl-3 pr-3">
                                     <img class="w-6 h-6"
-                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Dash.svg"
+                                        src="{{ asset('assets/img/crypto-currencies/round-outline/Dash.svg') }}"
                                         alt="image">
                                     <div class="w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1261,7 +1261,7 @@
                                 </div>
                                 <div class="list d-flex align-items-center p-2 pl-3 pr-3 mb-0">
                                     <img class="w-6 h-6"
-                                        src="{{ asset('') }}assets/img/crypto-currencies/round-outline/NEM.svg"
+                                        src="{{ asset('assets/img/crypto-currencies/round-outline/NEM.svg') }}"
                                         alt="image">
                                     <div class=" w-100 ml-3">
                                         <div class="d-flex justify-content-between align-items-center">
@@ -1797,7 +1797,7 @@
                     <div class="card-body p-0">
                         <div class="header-user text-center mt-4">
                             <span class="avatar avatar-xxl brround mx-auto"><img
-                                    src="{{ asset('') }}assets/img/faces/6.jpg" alt="Profile-img"
+                                    src="{{ asset('assets/img/faces/6.jpg') }}" alt="Profile-img"
                                     class="avatar avatar-xxl brround"></span>
                             <div class=" text-center font-weight-semibold user mt-3 h6 mb-0">Rapona Pechon</div>
                             <span class="text-muted">App Developer</span>
@@ -1842,23 +1842,23 @@
                                 <div class="col-12">
                                     <div class="followers">
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="{{ asset('') }}assets/img/faces/3.jpg">
+                                            data-image-src="{{ asset('assets/img/faces/3.jpg') }}">
                                             <span class="avatar-status bg-green"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="{{ asset('') }}assets/img/faces/6.jpg">
+                                            data-image-src="{{ asset('assets/img/faces/6.jpg') }}">
                                             <span class="avatar-status bg-red"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="{{ asset('') }}assets/img/faces/3.jpg">
+                                            data-image-src="{{ asset('assets/img/faces/3.jpg') }}">
                                             <span class="avatar-status bg-warning"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="{{ asset('') }}assets/img/faces/4.jpg">
+                                            data-image-src="{{ asset('assets/img/faces/4.jpg') }}">
                                             <span class="avatar-status bg-green"></span>
                                         </a>
                                         <a href="#" class="avatar brround avatar-md cover-image m-1"
-                                            data-image-src="{{ asset('') }}assets/img/faces/9.jpg">
+                                            data-image-src="{{ asset('assets/img/faces/9.jp') }}g">
                                             <span class="avatar-status bg-warning"></span>
                                         </a>
                                         <a href="#"
@@ -1902,7 +1902,7 @@
                                 <li class="active">
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/12.jpg"
+                                            <img src="{{ asset('assets/img/faces/12.jpg') }}"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -1918,7 +1918,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/2.jpg"
+                                            <img src="{{ asset('assets/img/faces/2.jpg') }}"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class=" online_icon"></span>
                                         </div>
@@ -1934,7 +1934,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/5.jpg"
+                                            <img src="{{ asset('assets/img/faces/5.jpg') }}"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -1950,7 +1950,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/7.jpg"
+                                            <img src="{{ asset('assets/img/faces/7.jpg') }}"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -1966,7 +1966,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/8.jpg"
+                                            <img src="{{ asset('assets/img/faces/8.jp') }}g"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -1982,7 +1982,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/3.jpg"
+                                            <img src="{{ asset('assets/img/faces/3.jp') }}g"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -1998,7 +1998,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/14.jpg"
+                                            <img src="{{ asset('assets/img/faces/14.jpg') }}"
                                                 class="rounded-circle user_img" alt="img">
                                             <span class="online_icon"></span>
                                         </div>
@@ -2014,7 +2014,7 @@
                                 <li>
                                     <div class="d-flex bd-highlight w-100">
                                         <div class="img_cont">
-                                            <img src="{{ asset('') }}assets/img/faces/11.jpg"
+                                            <img src="{{ asset('assets/img/faces/11.jp') }}g"
                                                 class="rounded-circle user_img" alt="img">
                                         </div>
                                         <div class="user_info">
@@ -2341,77 +2341,77 @@
     <a href="#top" id="back-to-top"><i class="la la-chevron-up"></i></a>
 
     <!-- JQuery min js -->
-    <script src="{{ asset('') }}assets/plugins/jquery/jquery.min.js"></script>
+    <script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
 
     <!-- Datepicker js -->
-    <script src="{{ asset('') }}assets/plugins/jquery-ui/ui/widgets/datepicker.js"></script>
+    <script src="{{ asset('assets/plugins/jquery-ui/ui/widgets/datepicker.js') }}"></script>
 
     <!-- Bootstrap Bundle js -->
-    <script src="{{ asset('') }}assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Ionicons js -->
-    <script src="{{ asset('') }}assets/plugins/ionicons/ionicons.js"></script>
+    <script src="{{ asset('assets/plugins/ionicons/ionicons.js') }}"></script>
 
     <!-- Moment js -->
-    <script src="{{ asset('') }}assets/plugins/moment/moment.js"></script>
+    <script src="{{ asset('assets/plugins/moment/moment.js') }}"></script>
 
     <!--Chart bundle min js -->
-    <script src="{{ asset('') }}assets/plugins/chart.js/Chart.bundle.min.js"></script>
-    <script src="{{ asset('') }}assets/plugins/raphael/raphael.min.js"></script>
-    <script src="{{ asset('') }}assets/plugins/peity/jquery.peity.min.js"></script>
+    <script src="{{ asset('assets/plugins/chart.js/Chart.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/raphael/raphael.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/peity/jquery.peity.min.js') }}"></script>
 
     <!-- JQuery sparkline js -->
-    <script src="{{ asset('') }}assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="{{ asset('assets/plugins/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
 
     <!-- Sampledata js -->
-    <script src="{{ asset('') }}assets/js/chart.flot.sampledata.js"></script>
+    <script src="{{ asset('assets/js/chart.flot.sampledata.js') }}"></script>
 
     <!-- Perfect-scrollbar js -->
-    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+    <script src="{{ asset('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/perfect-scrollbar/p-scroll.js') }}"></script>
 
     <!-- Internal  Flot js-->
-    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.js"></script>
-    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.pie.js"></script>
-    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.resize.js"></script>
-    <script src="{{ asset('') }}assets/plugins/jquery.flot/jquery.flot.categories.js"></script>
-    <script src="{{ asset('') }}assets/js/dashboard.sampledata.js"></script>
-    <script src="{{ asset('') }}assets/js/chart.flot.sampledata.js"></script>
+    <script src="{{ asset('assets/plugins/jquery.flot/jquery.flot.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery.flot/jquery.flot.pie.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery.flot/jquery.flot.resize.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery.flot/jquery.flot.categories.js') }}"></script>
+    <script src="{{ asset('assets/js/dashboard.sampledata.js') }}"></script>
+    <script src="{{ asset('assets/js/chart.flot.sampledata.js') }}"></script>
 
     <!-- Internal Newsticker js-->
-    <script src="{{ asset('') }}assets/plugins/newsticker/jquery.jConveyorTicker.js"></script>
-    <script src="{{ asset('') }}assets/js/newsticker.js"></script>
+    <script src="{{ asset('assets/plugins/newsticker/jquery.jConveyorTicker.js') }}"></script>
+    <script src="{{ asset('assets/js/newsticker.js') }}"></script>
 
     <!-- Eva-icons js -->
-    <script src="{{ asset('') }}assets/js/eva-icons.min.js"></script>
+    <script src="{{ asset('assets/js/eva-icons.min.js') }}"></script>
 
     <!-- Horizontalmenu js-->
-    <script src="{{ asset('') }}assets/plugins/horizontal-menu/horizontal-menu.js"></script>
+    <script src="{{ asset('assets/plugins/horizontal-menu/horizontal-menu.js') }}"></script>
 
     <!-- right-sidebar js -->
-    <script src="{{ asset('') }}assets/plugins/sidebar/sidebar.js"></script>
-    <script src="{{ asset('') }}assets/plugins/sidebar/sidebar-custom.js"></script>
+    <script src="{{ asset('assets/plugins/sidebar/sidebar.js') }}"></script>
+    <script src="{{ asset('ssets/plugins/sidebar/sidebar-custom.js') }}a"></script>
 
     <!-- Rating js-->
-    <script src="{{ asset('') }}assets/plugins/rating/jquery.rating-stars.js"></script>
-    <script src="{{ asset('') }}assets/plugins/rating/jquery.barrating.js"></script>
+    <script src="{{ asset('assets/plugins/rating/jquery.rating-stars.js') }}"></script>
+    <script src="{{ asset('assets/plugins/rating/jquery.barrating.js') }}"></script>
 
     <!-- P-scroll js -->
-    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="{{ asset('') }}assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+    <script src="{{ asset('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('assets/plugins/perfect-scrollbar/p-scroll.js') }}"></script>
 
     <!-- Internal Nice-select js-->
-    <script src="{{ asset('') }}assets/plugins/jquery-nice-select/js/jquery.nice-select.js"></script>
-    <script src="{{ asset('') }}assets/plugins/jquery-nice-select/js/nice-select.js"></script>
+    <script src="{{ asset('assets/plugins/jquery-nice-select/js/jquery.nice-select.js') }}"></script>
+    <script src="{{ asset('assets/plugins/jquery-nice-select/js/nice-select.js') }}"></script>
 
     <!-- Sticky js -->
-    <script src="{{ asset('') }}assets/js/sticky.js"></script>
+    <script src="{{ asset('assets/js/sticky.js') }}"></script>
 
     <!-- index js -->
-    <script src="{{ asset('') }}assets/js/dashboard.js"></script>
+    <script src="{{ asset('assets/js/dashboard.js') }}"></script>
 
     <!-- custom js -->
-    <script src="{{ asset('') }}assets/js/custom.js"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 
 </body>
