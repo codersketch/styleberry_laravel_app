@@ -12,7 +12,7 @@
         content="bootstrap admin template, admin template ,admin panel template ,bootstrap 4 admin template ,bootstrap admin ,admin dashboard template ,bootstrap admin panel ,bitcoin dashboard ,crypto dashboard ,btc dashboard ,cryptocurrency dashboard ,bitcoin template ,cryptocurrency template ,crypto template ,cryptocurrency dashboard template ,cryptocurrency admin template ,crypto admin template ,btconline dashboard ,ryptocurrency dashboard template ,crypto admin template ,crypto trading dashboard ,cryptocurrency admin template " />
 
     <!-- Title -->
-    <title> Xino - Premium dashboard ui bootstrap rwd admin html5 template </title>
+    <title>Styleberry-Admin</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('assets/img/brand/favicon.png') }}" type="image/x-icon" />
@@ -961,7 +961,7 @@
                                         <div class="row">
                                             <div class=" d-flex">
                                                 <div class="">
-                                                    <img src="{{ asset('') }}assets/img/crypto-currencies/round-outline/Decred.svg"
+                                                    <img src="{{ asset('assets/img/crypto-currencies/round-outline/Decred.svg') }}"
                                                         class="w-6 h-6 mt-0" alt="">
                                                 </div>
                                                 <div class="ml-3">
